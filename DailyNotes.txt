@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+c,c++,java,python,js,...........
+
+
+		POP 							OOP
+B,BCPL,C,PHOTON,COBOL.....		 c++,java,python,.net,....		
+
+				1)performance 		inheritance,polymorphisam
+				2)security			abstraction,encapsulation
+
+
+java 1996 sun micro system
+
+OOPS  
+
+OOPL
+
+
+Why JAVA?
+==========
+		platform independent
+		garbage collection
+
+
+		app1
+		user1		user2		user3
+				
+		windows		linux		mac
+
+		OAK -->Java -->20 1996 sunmicrosystem -->Oracle 
+
+
+https://www.javatpoint.com/javafx-how-to-install-java
+
+
+
+JDK--->JRE(libraries)-->JVM
+
+			JVM Arcitecture 		javac filename.java
+									java classname
+			
+	CLSS
+	
+	Memory Areas	5 MA					int marks=230; 4 bytes
+	
+	Execution engine 
+
+Variables:
+==========
+variable is a name given to the memory location
+
+		synatx
+			datatype varname =value
+			datatype varname;
+					varname=value;
+
+		local variables 
+		global variables
+
+
+	int age=22; 4bytes  
+
+
+byte 	1 byte	 -128 to 127
+short	2 bytes	-32768 to 32767
+int 	4 bytes	-2147483768 to 2147483767
+long	8 bytes	
+
+float	4 bytes
+double	8 bytes
+
+boolean 1 bit true-1 false-0
+char	2 bytes		ASCII ,UNICODE  'M'
+
+		35.5632322222
+		23.328372738273
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://tcheck.co/HTCHL6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
