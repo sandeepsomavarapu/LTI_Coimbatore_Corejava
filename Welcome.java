@@ -1,7 +1,10 @@
-class Welcome123
+package com.lti.sleepingemps;
+
+ class Welcome
 {
 	long contact=9494949494l;
 	short marks=890;//global variables 
+	static String orgName="LTI";
 	public static void main(String args[])
 	{
 		//local variabels
@@ -11,6 +14,10 @@ class Welcome123
 		double result=43.3232323232993;
 		
 		System.out.println(result+"Leave US Its break time"+salary);
+		System.out.println(Welcome.orgName);
+		Welcome wel=new Welcome();
+		System.out.println(wel.marks);
+		
 	}
 
 }
