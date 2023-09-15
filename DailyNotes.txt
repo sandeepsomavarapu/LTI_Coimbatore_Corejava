@@ -1,14 +1,11 @@
 
 
 
-JAVA:
-======
-https://drive.google.com/file/d/1tVeCn_-56vvLYG_OtdvgnK4Y9QRmDKKy/view?usp=sharing
 
 
-Eclipse:
-==========
-https://drive.google.com/file/d/1r1H8sLOMs5wKUUby9_I3yeJu86rguIQz/view?usp=sharing
+
+
+
 c,c++,java,python,js,...........
 
 
@@ -87,35 +84,187 @@ char	2 bytes		ASCII ,UNICODE  'M'
 
 
 
+javac -d . Welcome.java
+
+java com.lti.sleepingemps.Welcome
+
+
+12 + 13 =25
+"12"+"13"=
+
+int 
+
+
+Instance and Static :
+====================
+
+syntax:
+	static varibales need to have static keyword
+	if there is no static keyword i.e instance
+
+memory:
+	instance variables will get memory for every object creation inside heap area
+	static variables will get memory only once when class loading into JVM inside method area
+		
+		
+		classname objref=new classname();
+		
+		class Test
+		{
+		
+		Test test=new Test();
+		}
+Access:
+	static properties can be accessed by using classname 
+	instance properties can be accessed by using objname 
+
+When to use:
 
 
 
 
 
+	int ids[]={12,232,12,54,6,76};
+		System.out.println("values .."+ids[3]);
 
 
 
+						JAVA
+		JSE 					JEE 							JME		
+corejava,awt,swings,applets	 Servlets,JSP,APring,EJB,JSF		
+
+		
+standalone				notepad++,media players,anti virus
+web application			gmail,youtube,amazon,.....url
+distriuted 				phonepe,paytm,.... webservice,rest
+mobile 					ANDROID 
 
 
 
-
-https://tcheck.co/HTCHL6
-
-
-
-
-
-
+empname
+empsal float
+empdesg string
+empid int
+empcontact long
+gender    char 
 
 
+accessmodifier instance/static returntype methodName(params...) //signature
+{
+
+//method body
+}
+
+
+OOPS:
+
+				1)performance 		inheritance,polymorphisam
+				2)security			abstraction,encapsulation
 
 
 
+Inheritance:
+============	Code Reusability
+
+		
+
+class Test
+{
+//10 variables
+//20 methods
+
+
+}
+extends,implements
+class Welcome extends Test		
+{
+
+//5 methods
+
+
+}
+by default package for every java file is java.lang.*
+by default parent class for every java class is java.lang.Object 
 
 
 
+abstract method
+
+concrete method/non-abstract method
 
 
+public void addOfTwo(int a, int b) {//instance method
+		System.out.println(a + b);
+	}	//concrete method
 
+public abstract void addOfTwo(int a, int b);
+	class			: class is a collection only concrete methods          0%
+	abstract class	:its a combination both abstract and concrete methods  0-100%
+	interfaces		:its a colleciton of only abstract methods				100%
+
+abstraction:
+
+
+class Parents
+{
+	properties(){
+	
+	sop("100 crores");
+	
+	}
+	marraige()
+	{
+	sop("alia")
+	}
+
+
+}
+class Ansh extends Parents
+{
+	marraige()
+	{
+	sop("xyz")
+	}
+
+
+}
+
+Multiple Inheritance:
+=======================
+MI not supported by java through classes 
+MI  supported by java through interfaces  
+
+
+interface Parent          interface Parent1
+{						{
+public m1();				public void m1();
+				
+}						}
+
+class Child implements Parent,Parent1
+{
+
+main()
+{
+Child child=new Child();
+child.m1();
+}
+
+
+public m1();
+}
+
+Abstraction
+
+
+AccessModifiers
+
+public	:everywhere 
+
+private	:only inside the class
+
+protected :inside the package every where outside the package only in the childs
+
+default:package level scope
 
 
