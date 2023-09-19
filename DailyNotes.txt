@@ -130,8 +130,8 @@ When to use:
 
 
 						JAVA
-		JSE 					JEE 							JME		
-corejava,awt,swings,applets	 Servlets,JSP,APring,EJB,JSF		
+		JSE 					JEE 									JME		
+corejava,awt,swings,applets	 Servlets,JSP,SPring,EJB,JSF,webservices		
 
 		
 standalone				notepad++,media players,anti virus
@@ -202,6 +202,9 @@ public abstract void addOfTwo(int a, int b);
 	abstract class	:its a combination both abstract and concrete methods  0-100%
 	interfaces		:its a colleciton of only abstract methods				100%
 
+By default interface methods are public abstract
+By default interface variables are public static final
+
 abstraction:
 
 
@@ -266,5 +269,171 @@ private	:only inside the class
 protected :inside the package every where outside the package only in the childs
 
 default:package level scope
+
+
+polymorphisam:
+==============
+
+	same action in different ways 
+
+		method overloading:
+		===================
+			method name is same signature is different
+									no of params
+									type of params
+									order of params
+		
+		
+			method name is same implementation is different 
+					@Override
+		
+		
+		final 
+			before the variable
+			before the method
+			before the class
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		method overriding:
+		==================
+
+constructor
+this :it is used to represent current class properties(variable,method,constructor,object) 
+Super :it is used to represent parent class properties(variable,method,constructor) 
+
+Encapsulation:
+==============
+
+String ,StringBuffer,StringBuilder    java.lang 
+
+String is imuttable
+StringBuffer,StringBuilder are muttable
+
+StringBuffer methods are	 synchronized 
+StringBuilder method are  not  synchronized 
+
+
+		String name = "lti";// imuttable literal
+
+		System.out.println(name.concat(" india"));
+
+		name = name.concat(" india");
+		System.out.println(name);
+
+		String orgName = new String("lti");
+
+		StringBuffer orgName1 = new StringBuffer("lti");
+
+		orgName1.append(" coimbatore");
+		System.out.println(orgName1);
+
+SCP:String constant pool
+
+
+
+
+
+public void m1()
+{										t1,t2,t3
+
+	no thread safety
+
+}
+
+
+
+public synchronized void m2()
+{
+
+
+thread safety
+}
+
+
+
+
+class Test
+{
+
+1
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1000
+
+
+}
+
+1.abnormal termination
+
+2.system defined error messages 
+
+Streams:
+========
+
+	stream
+
+ 5 streams 
+
+	character stream		char
+	byte stream		2 bytes
+	buffered stream	1024 bytes
+	data stream		premitive data int,float....
+	object stream		java object 
+
+
+
+
+
+
+Arrays:
+=====
+	int a=123;
+	int a[]={23,43,5,65};
+	int a[]=new int[5];
+	
+1)only homogeneous
+2)array size fixed 
+3)no utility methods 
+
+Collections:
+============
+1)both homogeneous and heterogeneous 
+2)growable in nature  AL--10 (cc*3/2)+1
+3)lots of utility methods 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
